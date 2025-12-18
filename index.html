@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NATI – Tienda Navideña</title>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href=".css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NATI – Tienda Navideña</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#Inicio">INICIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="#productos">PRODUCTOS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#panetones">PANETONES</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
+          <li class="nav-item"><a class="btn btn-ofertas ms-lg-3" href="#">OFERTAS</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CARROUSEL -->
+ <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" ></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slider-banner1.jpg" class="d-block w-100" alt="Navidad">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Navidad Mágica</h5>
+        <p>Descubre los mejores regalos y panetones</p>
+        <a class="btn btn-danger">Ver Ofertas</a>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/slider-banner2.jpg" class="d-block w-100" alt="Regalos">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Regalos Especiales</h5>
+        <p>Sorprende a quienes más quieres</p>
+        <a class="btn btn-success">Comprar Ahora</a>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/slider-banner3.jpg" class="d-block w-100" alt="Panetón">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Panetones Navideños</h5>
+        <p>El sabor tradicional de la Navidad</p>
+        <a class="btn btn-warning">Ver Ofertas</a>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- INICIO -->
+  <section id="Inicio" class="container pt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="display-4"><i class="bi bi-chat-right-heart"></i> ¿Que encontrarás?</h1>
+        <hr>
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <img src="images/banner.jpg" class="img-fluid" alt="homeImg">
+          </div>
+          <div class="col-md-5">
+            <p class="lead">Encuentra todo lo que necesitas para llenar tu hogar de espíritu navideño: panetones, luces, adornos, guirnaldas y decoraciones únicas. Nuestros productos están pensados para crear momentos especiales y compartir alegría con quienes más quieres. ¡Haz de esta Navidad una celebración inolvidable!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos" class="container pt-5">
+    <h2 class="text-center section-title"><i class="bi bi-stars"></i> Productos Navideños</h2>
+    <div class="row mt-4 g-4">
+      <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="images/product1.jpg" class="card-img-top" alt="PANETON">
+        <div class="card-body">
+          <h5 class="card-title">PANETON TRADICIONAL</h5>
+          <p class="card-text">Delicioso panetón navideño con frutas confitadas.</p>
+          <p class="fw-bold">S/ 25.00</p>
+          <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="images/product2.jpg" class="card-img-top" alt="LUCES LED">
+        <div class="card-body">
+          <h5 class="card-title">LUCES LED NAVIDEÑOS</h5>
+          <p class="card-text">Iluminación LED multicolor para interiores y exteriores.</p>
+          <p class="fw-bold">S/ 35.00</p>
+          <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="images/product3.jpg" class="card-img-top" alt="ADORNOS">
+        <div class="card-body">
+          <h5 class="card-title">ADORNOS PARA ARBOL</h5>
+          <p class="card-text">Set de esferas y decoraciones brillantes.</p>
+          <p class="fw-bold">S/ 35.00</p>
+          <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="images/product4.jpg" class="card-img-top" alt="GUIRNALDAS">
+        <div class="card-body">
+          <h5 class="card-title">GUIRNALDAS NAVIDEÑAS</h5>
+          <p class="card-text">Guirnaldas festivas para puertas y ventanas.</p>
+          <p class="fw-bold">S/ 20.00</p>
+          <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="images/product5.jpg" class="card-img-top" alt="ESTRELLAS">
+        <div class="card-body">
+          <h5 class="card-title">ESFERAS Y ESTRELLAS</h5>
+          <p class="card-text">Decoración brillante para el árbol navideño.</p>
+          <p class="fw-bold">S/ 18.00</p>
+          <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100">
+        <img src="images/product6.jpg" class="card-img-top" alt="NACIMIENTO">
+        <div class="card-body">
+          <h5 class="card-title">NACIMIENTO DECORATIVO</h5>
+          <p class="card-text">Nacimiento tradicional para decorar tu hogar.</p>
+          <p class="fw-bold">S/ 60.00</p>
+          <a href="#" class="btn btn-danger w-100"><i class="bi bi-cart4"></i> Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+    </div>
+  </section>
+
+<!-- PANETONES TABS -->
+  <section id="panetones" class="container pt-5">
+    <h2 class="text-center"><i class="bi bi-snow2"></i> Panetones Navideños</h2>
+    <div class="row mt-4 g-4">
+
+      <ul class="nav nav-tabs justify-content-center" role="tablist">
+    <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#gloria" role="tab">Panetón Gloria</a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#donofrio" role="tab">Panetón Donofrio</a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#motta" role="tab">Panetón Motta</a></li>
+    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#bauducco" role="tab">Panetón Bauducco</a></li>
+  </ul>
+
+    <div class="tab-content p-4 border">
+
+  <div class="tab-pane fade show active" id="gloria" role="tabpanel">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <img src="images/paneton-gloria.jpg"
+               class="img-fluid rounded" alt="Panetón Gloria">
+        </div>
+        <div class="col-md-7">
+          <h3>Panetón Gloria</h3>
+          <p>Panetón tradicional con frutas confitadas y pasas, ideal para compartir en familia.</p>
+          <h4 class="text-danger">S/ 25.00</h4>
+          <a href="#" class="btn btn-danger mt-2"><i class="bi bi-bag-heart-fill"></i> Comprar Ahora</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="donofrio" role="tabpanel">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <img src="images/paneton-donofrio.jpg"
+               class="img-fluid rounded" alt="Panetón Donofrio">
+        </div>
+        <div class="col-md-7">
+          <h3>Panetón Donofrio</h3>
+          <p>El clásico sabor navideño, suave y esponjoso, favorito de muchas familias.</p>
+          <h4 class="text-success">S/ 28.00</h4>
+          <a href="#" class="btn btn-success mt-2"><i class="bi bi-bag-heart-fill"></i> Comprar Ahora</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="motta" role="tabpanel">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <img src="images/paneton-motta.png"
+               class="img-fluid rounded" alt="Panetón Motta">
+        </div>
+        <div class="col-md-7">
+          <h3>Panetón Motta</h3>
+          <p>Panetón premium con receta italiana, textura suave y sabor intenso.</p>
+          <h4 class="text-warning">S/ 35.00</h4>
+          <a href="#" class="btn btn-warning mt-2"><i class="bi bi-bag-heart-fill"></i> Comprar Ahora</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="bauducco" role="tabpanel">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <img src="images/paneton-bauducco.jpg"
+               class="img-fluid rounded" alt="Panetón Bauducco">
+        </div>
+        <div class="col-md-7">
+          <h3>Panetón Bauducco</h3>
+          <p>Panetón relleno de chocolate, ideal para los amantes del sabor dulce.</p>
+          <h4 class="text-warning">S/ 32.00</h4>
+          <a href="#" class="btn btn-warning mt-2"><i class="bi bi-bag-heart-fill"></i> Comprar Ahora</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER - CONTACTO -->
+  <section id="contacto" class="container pt-5">
+    <h2 class="text-center"><i class="bi bi-mailbox2-flag"></i> Contáctanos</h2>
+
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <img src="images/contacto.jpg" class="img-fluid rounded">
+      </div>
+
+      <div class="col-md-8">
+        <form class="row g-3">
+          <div class="col-md-12">
+            <label class="form-label"><i class="bi bi-person-fill-check"></i> Nombre</label>
+            <input type="text" class="form-control">
+          </div>
+
+          <div class="col-md-12">
+            <label class="form-label"><i class="bi bi-envelope-at-fill"></i> Correo electrónico</label>
+            <input type="email" class="form-control">
+          </div>
+
+         <div class="col-md-12">
+            <label class="form-label"><i class="bi bi-person-lines-fill"></i> Motivo del contacto</label>
+            
+          <select class="form-select mb-3">
+          <option>Consulta</option>
+          <option>Pedido</option>
+          <option>Reclamo</option>
+          </select>
+
+          </div>
+
+          <div class="col-md-12">
+            <label class="form-label"><i class="bi bi-chat-right-dots-fill"></i> Mensaje</label>
+            <textarea class="form-control"></textarea>
+          </div>
+
+          <div class="col-12 text-center mt-3">
+            <button type="submit" class="btn btn-primary"><i class="bi bi-send-check-fill"></i> Enviar</button>
+            <button type="reset" class="btn btn-secondary">Limpiar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="text-light text-center mt-5 p-4">
+    © 2025 NATI – Tienda Navideña — Todos los derechos reservados.
+    <div class="mt-2">
+      <i class="bi bi-github mx-2"></i>
+      <i class="bi bi-youtube mx-2"></i>
+      <i class="bi bi-linkedin mx-2"></i>
+    </div>
+  </footer>
+
+  
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</html>
