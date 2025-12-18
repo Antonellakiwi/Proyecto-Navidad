@@ -5,12 +5,12 @@ body {
 }
 
 .navbar {
-  background-color: #greenyellow; 
+  background-color: greenyellow; 
 }
 
 .navbar-brand {
   font-weight: bold;
-  color: #green;
+  color: green;
 }
 
 .nav-link {
@@ -29,13 +29,13 @@ body {
 h2 {
   color: #c94a4a; 
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 20 px;
 }
 
 .carousel-caption {
-  background: rgba(255, 255, 255, 0.75);
-  padding: 18px;
-  border-radius: 15px;
+  background: (255, 255, 255, 0.75);
+  padding: 18 px;
+  border-radius: 15 px;
   color: #0f3d2e;
 }
 
@@ -43,7 +43,7 @@ h2 {
   border: none;
   border-radius: 15 px;
   background-color: #ffffff;
-  box-shadow: 0 6 px 15 px rgba(0,0,0,0.08);
+  box-shadow: 0 6 px 15 px (0,0,0,0.08);
   
 }
 
@@ -92,7 +92,7 @@ form label {
 }
 
 footer {
-  background-color: rgb(129, 45, 45);
+  background-color: (129, 45, 45);
   color: #7a1f1f;
 }
 
