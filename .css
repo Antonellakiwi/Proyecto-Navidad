@@ -5,12 +5,12 @@ body {
 }
 
 .navbar {
-  background-color: #white; 
+  background-color: #greenyellow; 
 }
 
 .navbar-brand {
   font-weight: bold;
-  color: #0f3d2e;
+  color: #green;
 }
 
 .nav-link {
